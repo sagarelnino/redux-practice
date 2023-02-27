@@ -1,8 +1,8 @@
-import { DECREMENT, INCREMENET } from "./actionTypes";
+import { DECREMENT, INCREMENT } from "./actionTypes";
 
 export const increment = (value) => {
     return {
-        type: INCREMENET,
+        type: INCREMENT,
         payload: value,
     };
 };
