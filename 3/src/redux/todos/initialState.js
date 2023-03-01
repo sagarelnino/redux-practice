@@ -2,12 +2,13 @@ const initialState = [
     {
         id: 1,
         text: 'Todo Text 1',
-        completed: true
+        completed: false
     },
     {
         id: 2,
         text: 'Todo Text 2',
-        completed: true
+        completed: true,
+        color: 'green'
     }
 ];
 
