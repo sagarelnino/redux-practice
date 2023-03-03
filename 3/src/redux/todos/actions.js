@@ -1,4 +1,11 @@
-import { ADDED,TOGGLED,COLORSELECTED,DELETED,ALLCOMPLETED,CLEARCOMPLETED } from "./actionTypes";
+import { LOADED,ADDED,TOGGLED,COLORSELECTED,DELETED,ALLCOMPLETED,CLEARCOMPLETED } from "./actionTypes";
+
+export const loaded = (todos) => {
+    return {
+        type : LOADED,
+        payload : todos
+    }
+}
 
 export const added = (todoText) => {
     return {
