@@ -3,11 +3,11 @@ const { counterActions } = require("./features/counter/counterSlice");
 const { dynamicCounterActions } = require("./features/dynamicCounter/dynamicCounterSlice");
 
 //initial state
-console.log(store.getState());
+//console.log(store.getState());
 
 //subscribe to store
 store.subscribe(() => {
-    console.log(store.getState());
+    //console.log(store.getState());
 });
 
 //dispatch actions
